@@ -1,0 +1,12 @@
+SQS konectom2-bal-features	; Manage Events message to run the pipeline ; SSE SQS; no backup data are kept 14 days; 
+SQS konectom2-bal-features-failed-events; Manage fail events ; SSE; SQS; No backup Data Are kept are kept in memory the time to reprocess the pipeline if needed
+SQS konectom2-compliance-computation	; Manage Events message to run the pipeline ; SSE SQS; no backup data are kept 14 days; 
+SQS konectom2-compliance-computation-failed-events; Manage fail events ; SSE SQS ; No backup; Data Are kept are kept in memory the time to reprocess the pipeline if needed
+SQS konectom2-data-validation	; Manage Events message to run the pipeline ; SSE SQS; no backup data are kept 14 days; 
+SQS konectom2-data-validation-failed-events;  Manage fail events ; SSE  SQS  No backup;Data Are kept are kept in memory the time to reprocess the pipeline if needed
+SQS konectom2-hcp-export	; Manage Events message to run the pipeline ; SSE SQS; no backup data are kept 14 days; 
+SQS konectom2-hcp-export-failed-events; Manage fail events ; SSE SQS ; No backup; Data Are kept are kept in memory the time to reprocess the pipeline if needed
+SQS konectom2-quality-checks	; Manage Events message to run the pipeline ; SSE SQS; no backup data are kept 14 days; 
+SQS konectom2-quality-checks-failed-events; Manage fail events ; SSE SQS ; No backup; Data Are kept are kept in memory the time to reprocess the pipeline if needed
+SQS konectom2-study-features-dispatch	; Manage Events message to run the pipeline ; SSE SQS; no backup data are kept 14 days; 
+SQS konectom2-study-features-dispatch-failed-events;  Manage fail events ; SSE  SQS  No backup;Data Are kept are kept in memory the time to reprocess the pipeline if needed 
